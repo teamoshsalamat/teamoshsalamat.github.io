@@ -6,20 +6,6 @@
     <title>Teamosh Salamat</title>
     <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
     <style>
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    text-decoration: none;
-    color: var(--black);
-}
-
-.logo-image {
-    height: 40px;
-    width: auto;
-    object-fit: contain;
-}
-
         :root {
             --green: #7AB547;
             --cream: #F5F5F0;
@@ -56,11 +42,20 @@
         }
 
         .logo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
             font-size: 1.5rem;
             font-weight: 500;
             letter-spacing: -0.5px;
             color: var(--black);
             text-decoration: none;
+        }
+
+        .logo-image {
+            height: 40px;
+            width: auto;
+            object-fit: contain;
         }
 
         .nav-links {
@@ -224,9 +219,9 @@
 <body>
     <nav class="nav">
         <a href="#" class="logo">
-    <img src="./images/logo.png" alt="Teamosh Salamat Logo" class="logo-image">
-    Teamosh Salamat
-</a>
+            <img src="./images/logo.png" alt="Teamosh Salamat Logo" class="logo-image">
+            Teamosh Salamat
+        </a>
         <div class="nav-links">
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
